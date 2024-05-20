@@ -2,11 +2,14 @@ package JavaCode;
 
 import API_Dictionary.TranslateAPI;
 import API_Dictionary.VoiceRequest;
-import javafx.animation.PauseTransition;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.fxml.FXML;
-
+import javafx.event.EventHandler;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
+import javafx.scene.input.InputEvent;
+import javafx.scene.input.KeyEvent;
 import java.io.IOException;
 import java.net.URL;
 import java.util.Objects;
@@ -21,13 +24,16 @@ public class TranslateController extends DatabaseConnection implements Initializ
         String languageTo = "vi";
         String speakFrom;
         String speakTo;
-
+//
+//        @FXML
+//        private ChoiceBox<String> choseLangDestination;
+//
+//        @FXML
+//        private ChoiceBox<String> choseLangSource;
         @FXML
-        private ChoiceBox<String> choseLangDestination;
-
+        private Label main_label;
         @FXML
-        private ChoiceBox<String> choseLangSource;
-
+        private Label trans_label;
         @FXML
         private TextArea inputSentence;
 
@@ -35,95 +41,68 @@ public class TranslateController extends DatabaseConnection implements Initializ
         private TextArea outputMeaning;
         @FXML
         private Button cancelBtn;
+
         @FXML
         private Button copyText;
 
-
+        private String Language1 = "English";
+        private String Language2 = "Vietnamese";
+        private TranslateAPI api;
         // khởi tạo và interface với các thành phần trong UI
         @Override
         public void initialize(URL location, ResourceBundle resources) {
+//
+                main_label.setText(Language1);
+                trans_label.setText(Language2);
+                inputSentence.setOnKeyReleased(new EventHandler<InputEvent>() {
+                        @Override
+                        public void handle(InputEvent t) {
+                                if (t instanceof KeyEvent) {
+                                        //KeyEvent event = (KeyEvent) t;
+                                        try {
+                                                findans();
+                                        } catch (Exception e) {}
+                                }
+                        }
+                });
 
-                LangSource();
-                LangDestination();
-                // Thiết lập "Phát hiện ngôn ngữ" là mặc định
-                choseLangSource.setValue("Phát hiện ngôn ngữ");
+//                // Thiết lập "Phát hiện ngôn ngữ" là mặc định
                 speakTo = "vi-vn";
                 speakFrom = "en-us";
-                languageTo = "vi";
-
-                // xử lý sự kiện khi click vào nút cancel
+//                languageTo = "vi";
+//
+//                // xử lý sự kiện khi click vào nút cancel
                 cancelBtn.setOnMouseClicked(event -> {
                         inputSentence.clear();
                         outputMeaning.clear();
                 });
-
-                // meaning text không được edit
+//
+//                // meaning text không được edit
                 outputMeaning.setEditable(false);
         }
-
-        void LangSource() {
-                choseLangSource.getItems().addAll("Phát hiện ngôn ngữ", "Tiếng Anh", "Tiếng Việt", "Tiếng Hàn", "Tiếng Nga", "Tiếng Trung");
-                choseLangSource.setValue("Phát hiện ngôn ngữ");
-                choseLangSource.setOnAction(event -> {
-                        switch (choseLangSource.getValue()) {
-                                case "Phát hiện ngôn ngữ":
-                                        languageFrom = ""; // Đặt ngôn ngữ từ là rỗng để phát hiện ngôn ngữ
-                                        speakFrom = "en-us";
-                                        break;
-                                case "Tiếng Anh":
-                                        languageFrom = "en";
-                                        speakFrom = "en-us";
-                                        break;
-                                case "Tiếng Việt":
-                                        languageFrom = "vi";
-                                        speakFrom = "vi-vn";
-                                        break;
-                                case "Tiếng Hàn":
-                                        languageFrom = "ko";
-                                        speakFrom = "ko-kr";
-                                        break;
-                                case "Tiếng Nga":
-                                        languageFrom = "ru";
-                                        speakFrom = "ru-ru";
-                                        break;
-                                case "Tiếng Trung":
-                                        languageFrom = "zh";
-                                        speakFrom = "zh-cn";
-                                        break;
-                        }
-                });
+        // nhấn nút đổi ngôn ngữ
+        @FXML
+        void swapLanguage() {
+                String temp = Language1;
+                Language1 = Language2;
+                Language2 = temp;
+                String temp2= languageFrom;
+                speakFrom = speakTo;
+                speakTo = temp2;
+                main_label.setText(Language1);
+                trans_label.setText(Language2);
         }
 
-
-        void LangDestination() {
-                choseLangDestination.getItems().addAll("Tiếng Việt", "Tiếng Anh", "Tiếng Hàn", "Tiếng Nga", "Tiếng Trung");
-                choseLangDestination.setValue("Tiếng Việt");
-                choseLangDestination.setOnAction(event -> {
-                        switch (choseLangDestination.getValue()) {
-                                case "Tiếng Việt":
-                                        languageTo = "vi";
-                                        speakTo = "vi-vn";
-                                        break;
-                                case "Tiếng Anh":
-                                        languageTo = "en";
-                                        speakTo = "en-us";
-                                        break;
-                                case "Tiếng Hàn":
-                                        languageTo = "ko";
-                                        speakTo = "ko-kr";
-                                        break;
-                                case "Tiếng Nga":
-                                        languageTo = "ru";
-                                        speakTo = "ru-ru";
-                                        break;
-                                case "Tiếng Trung":
-                                        languageTo = "zh";
-                                        speakTo = "zh-cn";
-                                        break;
-                        }
-                });
+        public void findans() throws Exception {
+                if (inputSentence.getText().trim().isEmpty()) return;
+                String s = inputSentence.getText();
+                api = new TranslateAPI(s, Language1,Language2);
+                api.valueProperty().addListener((observable, oldValue, newValue) -> outputMeaning.setText(String.valueOf(newValue)));
+//                System.out.println(s);
+                Thread th = new Thread(api);
+                th.setDaemon(true);
+                th.start();
         }
-
         @FXML
         void speakLangSource() throws Exception {
                 if (!Objects.equals(inputSentence.getText(), "")) {
@@ -147,15 +126,7 @@ public class TranslateController extends DatabaseConnection implements Initializ
                         thread.start();
                 }
         }
-
-        @FXML
-        void translateBtn() throws IOException {
-                if (!inputSentence.getText().isBlank()) {
-                        outputMeaning.setText(TranslateAPI.googleTranslate(languageFrom, languageTo, inputSentence.getText()));
-                }
-        }
-
-        // copy text to pc
+    // copy text to pc
         @FXML
         void copyText() {
                 String text = outputMeaning.getText();

@@ -77,7 +77,13 @@
     -fx-effect: dropshadow(three-pass-box, #040917, 4, 0, 0, 1.5) ;
     -fx-fill-color: #FFF;
 }
-
+}
+.game{
+    -fx-background-color: radial-gradient(focus-angle 0.0deg, focus-distance 0.0% , center 50.0% 50.0%, radius 50.0%, #d4f6ff 0.0%, #1fcff7 100.0%);
+}
+.gameback{
+    -fx-background-color: radial-gradient(focus-angle -6.71deg, focus-distance 7.3395% , center 48.2301% 49.2424%, radius 75.6881%, #effcff 0.0%, #effcff 0.6729%, #a0e8ec 100.0%);
+}
 .background_form{
    -fx-background-color: linear-gradient(from 0.0% 51.4205% to 25.7576% 51.5152%, #99eef9 0.0%, #bcf7f6 99.4616%, #bcf7f6 100.0%);
     -fx-effect: dropshadow(three-pass-box, #082d93, 4, 0, 0, 1.5) ;
@@ -313,10 +319,12 @@
 
 .success_label{
     -fx-font-size: 20px;
-    -fx-text-fill: #009432;
+    -fx-text-fill: #007acc;
     -fx-background-color:  #CAF7D8;
      -fx-background-radius: 5;
      -fx-border-radius: 5;
+     -fx-effect: dropshadow(three-pass-box, #3b9fe1, 4, 0, 0, 1.5) ;
+         -fx-fill-color: #FFF;
 }
 .current-user {
     -fx-text-fill: red; /* Thay đổi màu sắc tại đây */

@@ -9,7 +9,10 @@ import javax.sound.sampled.Clip;
 import java.io.File;
 import java.io.FileOutputStream;
 
+
 import static Constants.codekey.APIKEY;
+import static com.voicerss.tts.Languages.*;
+
 
 
 public class VoiceRequest extends Task<Clip> {
@@ -25,7 +28,7 @@ public class VoiceRequest extends Task<Clip> {
 
     @Override
     protected Clip call() throws Exception {
-        String PATH = "App/resources/Data/audio.wav";
+        String PATH = "src/resources/Audio/audio.wav";
         VoiceProvider tts = new VoiceProvider(APIKEY);
         VoiceParameters params = new VoiceParameters(text, AudioFormat.Format_44KHZ.AF_44khz_16bit_stereo);
         params.setCodec(AudioCodec.WAV);

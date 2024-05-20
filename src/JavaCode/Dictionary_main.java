@@ -55,7 +55,6 @@ public class Dictionary_main extends Application {
     public void start(Stage primaryStage) throws Exception{
         initializeStage(primaryStage);
     }
-
     public static void main(String[] args) {
         launch(args);
     }
@@ -85,11 +84,6 @@ public class Dictionary_main extends Application {
     public static void addDataLoadedListener(DataLoadedListener listener) {
         listeners.add(listener);
     }
-
-    public void removeDataLoadedListener(DataLoadedListener listener) {
-        listeners.remove(listener);
-    }
-
     private static void notifyListeners() {
         for (DataLoadedListener listener : listeners) {
             listener.onDataLoaded();

@@ -404,28 +404,7 @@ public class GameQuiz extends DatabaseConnection  implements Initializable{
 //        updateTestStudy(score, numberOfCorrectAns);
     }
 
-    // cập nhật điểm sau mỗi lần chơi
-//    public void updateTestStudy(int score, int numberOfCorrectAns) {
-//        int newScore = currentUser.getStudyRecord().getScore() + score;
-//        int newTimesAttend = currentUser.getStudyRecord().getTimesAttend() + 1;
-//        int newTotalQuestion = currentUser.getStudyRecord().getTotalQuestion() + 10;
-//        int newCorrectQuestion = currentUser.getStudyRecord().getCorrectQuestions() + numberOfCorrectAns;
-//        int newIncorrectQuestion = currentUser.getStudyRecord().getIncorrectQuestions() + (10 - numberOfCorrectAns);
-//
-//        try {
-//            Connection connection = getConnection();
-//            PreparedStatement preparedStatement = connection.prepareStatement("UPDATE study SET score = ?, times_attend = ?, total_question = ?, correct_question = ?, incorrect_question = ? WHERE userID = ?");
-//            preparedStatement.setInt(1, newScore);
-//            preparedStatement.setInt(2, newTimesAttend);
-//            preparedStatement.setInt(3, newTotalQuestion);
-//            preparedStatement.setInt(4, newCorrectQuestion);
-//            preparedStatement.setInt(5, newIncorrectQuestion);
-//            preparedStatement.setInt(6, currentUser.getUserID());
-//            preparedStatement.executeUpdate();
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        }
-//    }
+
 
     private void showScoreSummaryDialog() {
         // Creating a dialog

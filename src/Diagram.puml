@@ -1,0 +1,45 @@
+@startuml
+class codekey {
+    DATABASE_NAME
+    DATABASE_USER
+    DATABASE_PASSWORD
+    URL
+    DRIVER
+    APIKEY
+}
+
+class GameController {
+    learningBtn1
+    learningBtn2
+    listViewRanking
+    initialize()
+}
+
+class Constant {
+    URL
+    DRIVER
+    LOGO_IMAGE_PATH
+    NAME_APP
+    QUESTION_FILE
+    IMAGE_FIREWORK
+    IMAGE_SAD
+    MENU_LAYER
+    SEARCH_LAYER
+    ADD_WORD_LAYER
+    GAMES_LAYER
+    TRANSLATE_LAYER
+    GAME_TESTING
+    GAME_WORD
+    GAME_UNSCRAMBLE
+    DATA_EV_FILE_PATH
+    DATA_VE_FILE_PATH
+    CORRECT_SOUND
+    SPLITTING_CHARACTERS
+    INCORRECT_SOUND
+    TABLE_ADD_WORD
+}
+
+GameController --|> DatabaseConnection
+GameController ..|> Initializable
+Constant -- codekey
+@enduml
