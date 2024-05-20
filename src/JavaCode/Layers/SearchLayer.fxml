@@ -40,7 +40,7 @@
          <right>
             <VBox prefHeight="539.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                <children>
-                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="50.0" prefHeight="50.0" prefWidth="174.0" text="Các từ đã thêm" textFill="#0e2c7e">
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="50.0" prefHeight="50.0" prefWidth="174.0" style="-fx-background-radius: 10;" text="Các từ đã thêm" textFill="#0e2c7e">
                      <font>
                         <Font name="System Bold" size="15.0" />
                      </font>
@@ -55,7 +55,7 @@
                         <Insets />
                      </VBox.margin>
                      <styleClass>
-                        <String fx:value="shadow-button" />
+                        <String fx:value="success_label" />
                         <String fx:value="title-coler" />
                      </styleClass>
                   </Label>
@@ -98,10 +98,10 @@
                      <children>
                         <Pane maxHeight="50.0" minHeight="50.0" prefHeight="55.0" prefWidth="598.0" styleClass="shadow-button">
                            <children>
-                              <Label fx:id="switchLangBtn" alignment="CENTER" contentDisplay="CENTER" layoutX="461.0" layoutY="8.0" maxHeight="35.0" minHeight="35.0" minWidth="120.0" onDragDetected="#switchLanguage" style="-fx-background-radius: 5;" text="ENG -VIET">
+                              <Label fx:id="switchLangBtn" alignment="CENTER" contentDisplay="CENTER" layoutX="461.0" layoutY="8.0" maxHeight="35.0" minHeight="35.0" minWidth="120.0" onDragDetected="#switchLanguage" style="-fx-background-radius: 10;" text="ENG -VIET" textFill="#040917">
                                  <styleClass>
                                     <String fx:value="title-coler" />
-                                    <String fx:value="shadow-button" />
+                                    <String fx:value="success_label" />
                                     <String fx:value="scale-button" />
                                  </styleClass>
                                  <tooltip>

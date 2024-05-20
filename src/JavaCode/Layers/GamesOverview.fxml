@@ -10,6 +10,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane fx:id="container" maxHeight="600.0" minHeight="600.0" minWidth="800.0" prefHeight="600.0" prefWidth="670.0" stylesheets="@../../resources/Css/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaCode.GameController">
@@ -36,7 +39,7 @@
          <center>
             <AnchorPane prefHeight="519.0" prefWidth="559.0" style="-fx-background-color: #fff;" BorderPane.alignment="CENTER">
                <children>
-                  <Button fx:id="learningBtn1" contentDisplay="CENTER" layoutX="443.0" layoutY="104.0" maxHeight="350.0" minHeight="33.0" mnemonicParsing="false" prefHeight="289.0" prefWidth="287.0" style="-fx-background-color: none; -fx-background-radius: 100;">
+                  <Button fx:id="learningBtn1" contentDisplay="CENTER" layoutX="430.0" layoutY="100.0" maxHeight="300.0" minHeight="33.0" mnemonicParsing="false" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: none; -fx-background-radius: 100;">
                      <styleClass>
                         <String fx:value="scale-button" />
                         <String fx:value="shadow-button" />
@@ -45,7 +48,7 @@
                         <Font name="System Bold" size="14.0" />
                      </font>
                      <graphic>
-                        <ImageView fitHeight="291.0" fitWidth="353.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="300.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@../../resources/Image/unscramble.png" />
                            </image>
@@ -55,24 +58,46 @@
                         <Tooltip text="Game ghép từ" />
                      </tooltip>
                   </Button>
-                  <Button fx:id="learningBtn2" contentDisplay="CENTER" layoutX="61.0" layoutY="106.0" maxHeight="310.0" minHeight="33.0" mnemonicParsing="false" prefHeight="286.0" prefWidth="304.0" style="-fx-background-color: none; -fx-border-radius: 100;">
+                  <Button fx:id="learningBtn2" contentDisplay="CENTER" layoutX="60.0" layoutY="100.0" maxHeight="310.0" minHeight="33.0" mnemonicParsing="false" prefHeight="300.0" prefWidth="300.0" style="-fx-border-radius: 100; -fx-background-radius: 30;">
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font>
                      <graphic>
-                        <ImageView fitHeight="292.0" fitWidth="446.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="300.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../resources/Image/istockphoto-675550756-612x612.jpg" />
+                              <Image url="@../../resources/Image/game1.jpg" />
                            </image>
                         </ImageView>
                      </graphic>
-                     <styleClass>
-                        <String fx:value="scale-button" />
-                        <String fx:value="shadow-button" />
-                     </styleClass>
                      <tooltip>
                         <Tooltip text="Game trắc " />
                      </tooltip>
+                     <textFill>
+                        <RadialGradient centerX="0.4823009018349437" centerY="0.49242424964904785" focusAngle="-6.71" focusDistance="0.07339451291145527" radius="0.7568807514435654">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.9370370507240295" green="0.987407386302948" blue="1.0" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="0.006729475100942127">
+                                 <color>
+                                    <Color red="0.9370370507240295" green="0.987407386302948" blue="1.0" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="0.627836287021637" green="0.9113917946815491" blue="0.9263157844543457" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </RadialGradient>
+                     </textFill>
+                     <styleClass>
+                        <String fx:value="scale-button" />
+                        <String fx:value="game" />
+                        <String fx:value="shadow-button" />
+                     </styleClass>
                   </Button>
                </children>
             </AnchorPane>

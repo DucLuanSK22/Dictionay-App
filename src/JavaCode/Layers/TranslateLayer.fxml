@@ -37,16 +37,16 @@
          <children>
             <HBox prefHeight="100.0" prefWidth="200.0">
                <children>
-                  <Button maxHeight="40.0" maxWidth="235.0" minHeight="40.0" mnemonicParsing="false" onAction="#translateBtn" prefWidth="200.0" text="DỊCH" textOverrun="CENTER_WORD_ELLIPSIS">
+                  <Button maxHeight="40.0" maxWidth="235.0" minHeight="40.0" mnemonicParsing="false" onAction="#translateBtn" prefWidth="200.0" style="-fx-background-radius: 10;" text="DỊCH" textFill="#ecf0f1" textOverrun="CENTER_WORD_ELLIPSIS">
                      <styleClass>
-                        <String fx:value="shadow-button" />
+                        <String fx:value="success_label" />
                         <String fx:value="title-coler" />
                      </styleClass>
                      <HBox.margin>
                         <Insets right="377.0" />
                      </HBox.margin>
                   </Button>
-                  <ChoiceBox fx:id="choseLangSource" maxHeight="30.0" minHeight="40.0" prefHeight="30.0" prefWidth="200.0" styleClass="shadow-button" />
+                  <ChoiceBox fx:id="choseLangSource" maxHeight="30.0" minHeight="40.0" prefHeight="30.0" prefWidth="200.0" style="-fx-background-radius: 10;" styleClass="success_label" />
                </children>
             </HBox>
             <Pane minHeight="200.0" prefHeight="200.0" prefWidth="779.0" styleClass="english-word-input">
@@ -98,7 +98,7 @@
       </VBox>
       <VBox alignment="TOP_RIGHT" layoutY="321.0" maxHeight="282.0" minHeight="270.0" prefHeight="282.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="310.0">
          <children>
-            <ChoiceBox fx:id="choseLangDestination" minHeight="40.0" prefHeight="30.0" prefWidth="200.0" styleClass="shadow-button">
+            <ChoiceBox fx:id="choseLangDestination" minHeight="40.0" prefHeight="30.0" prefWidth="200.0" style="-fx-background-radius: 10;" styleClass="success_label">
                <VBox.margin>
                   <Insets bottom="10.0" />
                </VBox.margin>
