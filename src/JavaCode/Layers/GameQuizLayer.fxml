@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="container" maxHeight="600.0" maxWidth="800.0" minHeight="600.0" minWidth="800.0" prefHeight="470.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaCode.GameQuiz">
+   <BorderPane prefHeight="470.0" prefWidth="670.0" stylesheets="@../../resources/Css/style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <center>
+            <AnchorPane maxWidth="634.0" prefHeight="493.0" prefWidth="634.0" style="-fx-background-color: #fff;" BorderPane.alignment="CENTER">
+                <children>
+               <HBox alignment="CENTER" layoutX="2.0" layoutY="14.0" maxWidth="800.0" prefHeight="50.0" prefWidth="566.0" style="-fx-background-color: #fff;" AnchorPane.topAnchor="0.0">
+                  <children>
+                              <Pane prefHeight="64.0" prefWidth="52.0">
+                                  <children>
+                                      <Circle fx:id="circle1" centerX="40.0" centerY="50.0" fill="WHITE" layoutX="-24.0" layoutY="-19.0" radius="15.0" stroke="GRAY" strokeWidth="1.0" />
+                           <Line endX="47.39997100830078" endY="40.199974060058594" layoutX="3.0" layoutY="-10.0" startX="28.5000057220459" startY="40.199974060058594" />
+                                      <Label fx:id="progressText1" alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="16.0" prefHeight="29.0" prefWidth="28.0" text="1" />
+                                  </children>
+                              </Pane>
+                     <Pane layoutX="319.0" layoutY="10.0" prefHeight="64.0" prefWidth="52.0">
+                        <children>
+                           <Circle fx:id="circle2" centerX="40.0" centerY="50.0" fill="WHITE" layoutX="-24.0" layoutY="-19.0" radius="15.0" stroke="GRAY" strokeWidth="1.0" />
+                           <Line endX="47.39997100830078" endY="40.199974060058594" layoutX="3.0" layoutY="-10.0" startX="28.5000057220459" startY="40.199974060058594" />
+                           <Label fx:id="progressText2" alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="16.0" prefHeight="29.0" prefWidth="28.0" text="2" />
+                        </children>
+                     </Pane>
+                     <Pane layoutX="293.0" layoutY="10.0" prefHeight="64.0" prefWidth="52.0">
+                        <children>
+                           <Circle fx:id="circle3" centerX="40.0" centerY="50.0" fill="WHITE" layoutX="-24.0" layoutY="-19.0" radius="15.0" stroke="GRAY" strokeWidth="1.0" />
+                           <Line endX="47.39997100830078" endY="40.199974060058594" layoutX="3.0" layoutY="-10.0" startX="28.5000057220459" startY="40.199974060058594" />
+                           <Label fx:id="progressText3" alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="16.0" prefHeight="29.0" prefWidth="28.0" text="3" />
+                        </children>
+                     </Pane>
+                     <Pane layoutX="345.0" layoutY="10.0" prefHeight="64.0" prefWidth="52.0">
+                        <children>
+                           <Circle fx:id="circle4" centerX="40.0" centerY="50.0" fill="WHITE" layoutX="-24.0" layoutY="-19.0" radius="15.0" stroke="GRAY" strokeWidth="1.0" />
+                           <Line endX="47.39997100830078" endY="40.199974060058594" layoutX="3.0" layoutY="-10.0" startX="28.5000057220459" startY="40.199974060058594" />
+                           <Label fx:id="progressText4" alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="16.0" prefHeight="29.0" prefWidth="28.0" text="4" />
+                        </children>
+                     </Pane>
+                     <Pane layoutX="241.0" layoutY="10.0" prefHeight="64.0" prefWidth="52.0">
+                        <children>
+                           <Circle fx:id="circle5" centerX="40.0" centerY="50.0" fill="WHITE" layoutX="-24.0" layoutY="-19.0" radius="15.0" stroke="GRAY" strokeWidth="1.0" />
+                           <Line endX="47.39997100830078" endY="40.199974060058594" layoutX="3.0" layoutY="-10.0" startX="28.5000057220459" startY="40.199974060058594" />
+                           <Label fx:id="progressText5" alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="16.0" prefHeight="29.0" prefWidth="28.0" text="5" />
+                        </children>
+                     </Pane>
+                     <Pane layoutX="345.0" layoutY="10.0" prefHeight="64.0" prefWidth="52.0">
+                        <children>
+                           <Circle fx:id="circle6" centerX="40.0" centerY="50.0" fill="WHITE" layoutX="-24.0" layoutY="-19.0" radius="15.0" stroke="GRAY" strokeWidth="1.0" />
+                           <Line endX="47.39997100830078" endY="40.199974060058594" layoutX="3.0" layoutY="-10.0" startX="28.5000057220459" startY="40.199974060058594" />
+                           <Label fx:id="progressText6" alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="16.0" prefHeight="29.0" prefWidth="28.0" text="6" />
+                        </children>
+                     </Pane>
+                     <Pane layoutX="397.0" layoutY="10.0" prefHeight="64.0" prefWidth="52.0">
+                        <children>
+                           <Circle fx:id="circle7" centerX="40.0" centerY="50.0" fill="WHITE" layoutX="-24.0" layoutY="-19.0" radius="15.0" stroke="GRAY" strokeWidth="1.0" />
+                           <Line endX="47.39997100830078" endY="40.199974060058594" layoutX="3.0" layoutY="-10.0" startX="28.5000057220459" startY="40.199974060058594" />
+                           <Label fx:id="progressText7" alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="16.0" prefHeight="29.0" prefWidth="28.0" text="7" />
+                        </children>
+                     </Pane>
+                     <Pane layoutX="371.0" layoutY="10.0" prefHeight="64.0" prefWidth="52.0">
+                        <children>
+                           <Circle fx:id="circle8" centerX="40.0" centerY="50.0" fill="WHITE" layoutX="-24.0" layoutY="-19.0" radius="15.0" stroke="GRAY" strokeWidth="1.0" />
+                           <Line endX="47.39997100830078" endY="40.199974060058594" layoutX="3.0" layoutY="-10.0" startX="28.5000057220459" startY="40.199974060058594" />
+                           <Label fx:id="progressText8" alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="16.0" prefHeight="29.0" prefWidth="28.0" text="8" />
+                        </children>
+                     </Pane>
+                     <Pane layoutX="423.0" layoutY="10.0" prefHeight="64.0" prefWidth="52.0">
+                        <children>
+                           <Circle fx:id="circle9" centerX="40.0" centerY="50.0" fill="WHITE" layoutX="-24.0" layoutY="-19.0" radius="15.0" stroke="GRAY" strokeWidth="1.0" />
+                           <Line endX="47.39997100830078" endY="40.199974060058594" layoutX="3.0" layoutY="-10.0" startX="28.5000057220459" startY="40.199974060058594" />
+                           <Label fx:id="progressText9" alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="16.0" prefHeight="29.0" prefWidth="28.0" text="9" />
+                        </children>
+                     </Pane>
+                     <Pane layoutX="475.0" layoutY="10.0" prefHeight="64.0" prefWidth="52.0">
+                        <children>
+                           <Circle fx:id="circle10" centerX="40.0" centerY="50.0" fill="WHITE" layoutX="-24.0" layoutY="-19.0" radius="15.0" stroke="GRAY" strokeWidth="1.0" />
+                           <Label fx:id="progressText10" alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="16.0" prefHeight="29.0" prefWidth="28.0" text="10" />
+                        </children>
+                     </Pane>
+                  </children>
+               </HBox>
+                    <Pane fx:id="questionAndAnswerPane" layoutY="56.0" prefHeight="491.0" prefWidth="570.0" AnchorPane.bottomAnchor="-8.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="56.0">
+
+                                          <RadioButton fx:id="answerBtnA" layoutX="71.0" layoutY="197.0" onAction="#chooseAnswer" prefHeight="60.0" prefWidth="151.0" styleClass="answer-button">
+                            <wrapText>true</wrapText>
+                        </RadioButton>
+                        <Button fx:id="nextBtn" alignment="CENTER" layoutX="232.0" layoutY="407.0" maxHeight="30.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="100.0" style="-fx-background-radius: 5; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #2173ed, #04b4e0ec)linear-gradient(from 25% 25% to 100% 100%, #2173ed, #04b4e0ec); -fx-text-fill: white;" text="Kiểm tra">
+                     <styleClass>
+                        <String fx:value="scale-button" />
+                        <String fx:value="shadow-button" />
+                     </styleClass>
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Button>
+                          <Label fx:id="questionText" alignment="CENTER" contentDisplay="CENTER" layoutX="59.0" layoutY="79.0" prefHeight="82.0" prefWidth="446.0" styleClass="answer-button" text="ab" textFill="WHITE" wrapText="true" />
+                  <RadioButton fx:id="answerBtnB" layoutX="332.0" layoutY="197.0" onAction="#chooseAnswer" prefHeight="60.0" prefWidth="151.0" styleClass="answer-button" wrapText="true" />
+                  <RadioButton fx:id="answerBtnD" layoutX="332.0" layoutY="309.0" onAction="#chooseAnswer" prefHeight="60.0" prefWidth="151.0" styleClass="answer-button" wrapText="true" />
+                  <RadioButton fx:id="answerBtnC" layoutX="71.0" layoutY="309.0" onAction="#chooseAnswer" prefHeight="60.0" prefWidth="151.0" styleClass="answer-button" wrapText="true" />
+                          <Label fx:id="questionTitle" layoutX="25.0" layoutY="14.0" prefHeight="30.0" prefWidth="273.0" styleClass="title-coler" text="Hãy chọn đáp án đúng!" textFill="#FFF">
+                     <graphic>
+                        <ImageView fitHeight="27.0" fitWidth="24.0" opacity="0.69" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../resources/Icons/question_mark.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                    </Pane>
+                </children>
+            </AnchorPane>
+      </center>
+      <right>
+              <VBox maxHeight="1.7976931348623157E308" maxWidth="230.0" minWidth="230.0" prefHeight="493.0" prefWidth="215.0" style="-fx-background-color: #fff;" BorderPane.alignment="TOP_CENTER">
+                  <children>
+                        <Label fx:id="infoTitle" minHeight="50.0" prefHeight="50.0" prefWidth="230.0" text="Thông tin" textFill="#FFF">
+                            <graphic>
+                                <ImageView fitHeight="20.0" fitWidth="20.0" opacity="0.8" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../resources/Icons/Info_icon_002.svg.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                  <font>
+                     <Font size="16.0" />
+                  </font>
+                  <styleClass>
+                     <String fx:value="title-coler" />
+                     <String fx:value="shadow-button" />
+                  </styleClass>
+                  <padding>
+                     <Insets left="10.0" />
+                  </padding>
+                        </Label>
+                      <HBox alignment="CENTER_LEFT" styleClass="box">
+                          <children>
+                              <Label prefHeight="27.0" prefWidth="107.0" styleClass="title-coler" text="Timer:" textFill="#007acc">
+                                  <font>
+                                      <Font name="System Bold" size="16.0" />
+                                  </font>
+                              </Label>
+                              <Label fx:id="timeCounter" alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="30.0" prefWidth="73.0" text="30s" textFill="RED">
+                                  <font>
+                                      <Font name="System Bold" size="20.0" />
+                                  </font>
+                              </Label>
+                          </children>
+                          <VBox.margin>
+                              <Insets left="10.0" right="10.0" top="10.0" />
+                          </VBox.margin>
+                      </HBox>
+                      <HBox alignment="CENTER_LEFT">
+                          <children>
+                              <Label prefHeight="27.0" prefWidth="110.0" styleClass="title-coler" text="Score:" textFill="#007acc">
+                                  <font>
+                                      <Font name="System Bold" size="14.0" />
+                                  </font>
+                              </Label>
+                              <Label fx:id="scoreTest" prefHeight="30.0" prefWidth="91.0" text="0/100" textFill="#007acc">
+                                  <font>
+                                      <Font name="System Bold" size="20.0" />
+                                  </font>
+                              </Label>
+                          </children>
+                          <opaqueInsets>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                          </opaqueInsets>
+                          <VBox.margin>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                          </VBox.margin>
+                      </HBox>
+                      <Label contentDisplay="CENTER" minHeight="50.0" prefHeight="50.0" prefWidth="244.0" text="Trợ gúp" textFill="#007acc">
+                          <font>
+                              <Font name="System Bold" size="14.0" />
+                          </font>
+                          <VBox.margin>
+                              <Insets />
+                          </VBox.margin>
+                  <styleClass>
+                     <String fx:value="title-coler" />
+                     <String fx:value="shadow-button" />
+                  </styleClass>
+                  <padding>
+                     <Insets left="10.0" />
+                  </padding>
+                      </Label>
+               <VBox alignment="CENTER" prefHeight="346.0" prefWidth="230.0">
+                  <children>
+                              <Button fx:id="fiftyPercentBtn" mnemonicParsing="false" prefHeight="85.0" prefWidth="73.0" style="-fx-background-color: none;">
+                                  <graphic>
+                                      <ImageView fitHeight="80.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
+                                          <image>
+                                              <Image url="@../../resources/Icons/50-percent.png" />
+                                          </image>
+                                      </ImageView>
+                                  </graphic>
+                                  <tooltip>
+                                      <Tooltip text="Bỏ đi 2 phương án sai" />
+                                  </tooltip>
+                        <styleClass>
+                           <String fx:value="edit-button" />
+                           <String fx:value="scale-button" />
+                        </styleClass>
+                        <VBox.margin>
+                           <Insets bottom="10.0" />
+                        </VBox.margin>
+                              </Button>
+                              <Button fx:id="teamworkBtn" mnemonicParsing="false" prefHeight="80.0" prefWidth="70.0" style="-fx-background-color: none;">
+                                  <graphic>
+                                      <ImageView fitHeight="72.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                                          <image>
+                                              <Image url="@../../resources/Icons/collaborative.png" />
+                                          </image>
+                                      </ImageView>
+                                  </graphic>
+                                  <tooltip>
+                                      <Tooltip text="Trợ giúp của tổ tư vấn" />
+                                  </tooltip>
+                        <styleClass>
+                           <String fx:value="edit-button" />
+                           <String fx:value="scale-button" />
+                        </styleClass>
+                        <VBox.margin>
+                           <Insets bottom="10.0" />
+                        </VBox.margin>
+                              </Button>
+                              <Button fx:id="changeBtn" mnemonicParsing="false" prefHeight="66.0" prefWidth="72.0" style="-fx-background-color: none;">
+                                  <graphic>
+                                      <ImageView fitHeight="74.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
+                                          <image>
+                                              <Image url="@../../resources/Icons/reverse.png" />
+                                          </image>
+                                      </ImageView>
+                                  </graphic>
+                                  <tooltip>
+                                      <Tooltip text="Đổi câu hỏi khác" />
+                                  </tooltip>
+                        <styleClass>
+                           <String fx:value="edit-button" />
+                           <String fx:value="scale-button" />
+                        </styleClass>
+                              </Button>
+                  </children>
+               </VBox>
+                  </children>
+            <styleClass>
+               <String fx:value="definition-wrapper" />
+               <String fx:value="shadow-button" />
+            </styleClass>
+              </VBox>
+      </right>
+      <top>
+         <VBox maxHeight="50.0" minHeight="50.0" minWidth="800.0" prefHeight="50.0" prefWidth="800.0" styleClass="shadow-button" BorderPane.alignment="CENTER">
+            <children>
+                   <Pane maxWidth="800.0" minHeight="50.0" minWidth="800.0" prefHeight="50.0" prefWidth="800.0" styleClass="shadow-button">
+                         <Label fx:id="progressTitle" layoutY="2.0" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefWidth="676.0" styleClass="title" text="Luyện tập" textFill="#FFF" wrapText="true">
+                     <graphic>
+                        <ImageView fitHeight="47.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../resources/Icons/learning.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </Label>
+                  <VBox.margin>
+                     <Insets bottom="5.0" />
+                  </VBox.margin>
+
+                               </Pane>
+            </children>
+            <BorderPane.margin>
+               <Insets bottom="10.0" />
+            </BorderPane.margin>
+         </VBox>
+      </top>
+   </BorderPane>
+
+
+</AnchorPane>

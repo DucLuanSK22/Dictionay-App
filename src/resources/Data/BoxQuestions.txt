@@ -1,0 +1,781 @@
+[
+  {
+    "questionTitle": "Ubiquitous",
+    "answerA": "A. Phổ biến",
+    "answerB": "B. Hiếm",
+    "answerC": "C. Mới mẻ",
+    "answerD": "D. Đa dạng",
+    "correctAnswer": "A"
+  },
+  {
+    "questionTitle": "SWOT analysis",
+    "answerA": "A. Phân tích PEST",
+    "answerB": "B. Phân tích ưu điểm - nhược điểm - cơ hội - rủi ro",
+    "answerC": "C. Phân tích thị trường",
+    "answerD": "D. Phân tích SWOT",
+    "correctAnswer": "B"
+  },
+  {
+    "questionTitle": "Innovation",
+    "answerA": "A. Sáng tạo",
+    "answerB": "B. Phát triển",
+    "answerC": "C. Hậu quả",
+    "answerD": "D. Thay đổi",
+    "correctAnswer": "A"
+  },
+  {
+    "questionTitle": "Liquidity",
+    "answerA": "A. Khả năng thanh toán",
+    "answerB": "B. Tính đầu tư",
+    "answerC": "C. Nguồn vốn",
+    "answerD": "D. Tính linh hoạt",
+    "correctAnswer": "A"
+  },
+  {
+    "questionTitle": "Entrepreneur",
+    "answerA": "A. Nhà lãnh đạo",
+    "answerB": "B. Doanh nhân",
+    "answerC": "C. Kế toán viên",
+    "answerD": "D. Luật sư",
+    "correctAnswer": "B"
+  },
+  {
+    "questionTitle": "SEO",
+    "answerA": "A. Tối ưu hóa công cụ tìm kiếm",
+    "answerB": "B. Phân tích thị trường",
+    "answerC": "C. Quảng cáo trên mạng",
+    "answerD": "D. Phân phối sản phẩm",
+    "correctAnswer": "A"
+  },
+  {
+    "questionTitle": "Sustainable",
+    "answerA": "A. Bền vững",
+    "answerB": "B. Tiết kiệm",
+    "answerC": "C. Độc lập",
+    "answerD": "D. Phụ thuộc",
+    "correctAnswer": "A"
+  },
+  {
+    "questionTitle": "Outsourcing",
+    "answerA": "A. Thuê ngoài",
+    "answerB": "B. Tự sản xuất",
+    "answerC": "C. Cải tiến sản phẩm",
+    "answerD": "D. Gia công",
+    "correctAnswer": "A"
+  },
+  {
+    "questionTitle": "Market segmentation",
+    "answerA": "A. Phân đoạn thị trường",
+    "answerB": "B. Phân tích thị trường",
+    "answerC": "C. Tiếp thị sản phẩm",
+    "answerD": "D. Tìm hiểu người tiêu dùng",
+    "correctAnswer": "A"
+  },
+  {
+    "questionTitle": "Mergers and Acquisitions",
+    "answerA": "A. Sáp nhập và mua lại",
+    "answerB": "B. Mua hàng và bán hàng",
+    "answerC": "C. Hợp tác và giao dịch",
+    "answerD": "D. Phân phối và tiếp thị",
+    "correctAnswer": "A"
+  },
+  {
+    "questionTitle": "Brand Equity",
+    "answerA": "A. Giá trị thương hiệu",
+    "answerB": "B. Giá trị sản phẩm",
+    "answerC": "C. Thị phần thương hiệu",
+    "answerD": "D. Nhận diện thương hiệu",
+    "correctAnswer": "A"
+  },
+  {
+    "questionTitle": "Target audience",
+    "answerA": "A. Đối tượng tiêu thụ",
+    "answerB": "B. Đối thủ cạnh tranh",
+    "answerC": "C. Đối tác chiến lược",
+    "answerD": "D. Nhóm mục tiêu",
+    "correctAnswer": "A"
+  },
+  {
+      "questionTitle": "Revenue",
+      "answerA": "A. Doanh thu",
+      "answerB": "B. Lợi nhuận",
+      "answerC": "C. Chi phí",
+      "answerD": "D. Thặng dư",
+      "correctAnswer": "A"
+    },
+    {
+      "questionTitle": "Cost",
+      "answerA": "A. Doanh thu",
+      "answerB": "B. Lợi nhuận",
+      "answerC": "C. Chi phí",
+      "answerD": "D. Thặng dư",
+      "correctAnswer": "C"
+    },
+    {
+      "questionTitle": "Profit",
+      "answerA": "A. Doanh thu",
+      "answerB": "B. Lợi nhuận",
+      "answerC": "C. Chi phí",
+      "answerD": "D. Thặng dư",
+      "correctAnswer": "B"
+    },
+    {
+      "questionTitle": "Investment",
+      "answerA": "A. Đầu tư",
+      "answerB": "B. Tiền lãi",
+      "answerC": "C. Thanh toán",
+      "answerD": "D. Quảng cáo",
+      "correctAnswer": "A"
+    },
+    {
+      "questionTitle": "Market",
+      "answerA": "A. Sản phẩm",
+      "answerB": "B. Thị trường",
+      "answerC": "C. Khách hàng",
+      "answerD": "D. Bán hàng",
+      "correctAnswer": "B"
+    },
+    {
+      "questionTitle": "Customer",
+      "answerA": "A. Sản phẩm",
+      "answerB": "B. Thị trường",
+      "answerC": "C. Khách hàng",
+      "answerD": "D. Bán hàng",
+      "correctAnswer": "C"
+    },
+    {
+      "questionTitle": "Product",
+      "answerA": "A. Sản phẩm",
+      "answerB": "B. Thị trường",
+      "answerC": "C. Khách hàng",
+      "answerD": "D. Bán hàng",
+  "correctAnswer": "A"
+},
+{
+  "questionTitle": "Service",
+  "answerA": "A. Sản phẩm",
+  "answerB": "B. Dịch vụ",
+  "answerC": "C. Khách hàng",
+  "answerD": "D. Bán hàng",
+  "correctAnswer": "B"
+},
+{
+  "questionTitle": "Advertising",
+  "answerA": "A. Tiền lãi",
+  "answerB": "B. Tiền lương",
+  "answerC": "C. Quảng cáo",
+  "answerD": "D. Chi phí",
+  "correctAnswer": "C"
+},
+{
+  "questionTitle": "Salary",
+  "answerA": "A. Tiền lãi",
+  "answerB": "B. Tiền lương",
+  "answerC": "C. Quảng cáo",
+  "answerD": "D. Chi phí",
+  "correctAnswer": "B"
+},
+{
+  "questionTitle": "Expense",
+  "answerA": "A. Tiền lãi",
+  "answerB": "B. Tiền lương",
+  "answerC": "C. Quảng cáo",
+  "answerD": "D. Chi phí",
+  "correctAnswer": "D"
+},
+{
+  "questionTitle": "Asset",
+  "answerA": "A. Tài sản",
+  "answerB": "B. Nợ",
+  "answerC": "C. Vốn",
+  "answerD": "D. Lợi nhuận",
+  "correctAnswer": "A"
+},
+{
+  "questionTitle": "Liability",
+  "answerA": "A. Tài sản",
+  "answerB": "B. Nợ",
+  "answerC": "C. Vốn",
+  "answerD": "D. Lợi nhuận",
+  "correctAnswer": "B"
+},
+{
+  "questionTitle": "Equity",
+  "answerA": "A. Tài sản",
+  "answerB": "B. Nợ",
+  "answerC": "C. Vốn",
+  "answerD": "D. Lợi nhuận",
+  "correctAnswer": "C"
+},
+{
+  "questionTitle": "Interest",
+  "answerA": "A. Tiền lãi",
+  "answerB": "B. Tiền lương",
+  "answerC": "C. Quảng cáo",
+  "answerD": "D. Chi phí",
+  "correctAnswer": "A"
+},
+{
+  "questionTitle": "E-commerce",
+  "answerA": "A. Thương mại điện tử",
+  "answerB": "B. Thị trường",
+  "answerC": "C. Quảng cáo",
+  "answerD": "D. Bán hàng",
+  "correctAnswer": "A"
+},
+{
+  "questionTitle": "Market share",
+  "answerA": "A. Sản phẩm",
+  "answerB": "B. Thị trường",
+  "answerC": "C. Khách hàng",
+  "answerD": "D. Thị phần",
+  "correctAnswer": "D"
+},
+{
+  "questionTitle": "Supply chain",
+  "answerA": "A. Chuỗi cung ứng",
+  "answerB": "B. Thị trường",
+  "answerC": "C. Khách hàng",
+  "answerD": "D. Bán hàng",
+  "correctAnswer": "A"
+},
+{
+  "questionTitle": "Distribution",
+  "answerA": "A. Chuỗi cung ứng",
+  "answerB": "B. Thị trường",
+  "answerC": "C. Khách hàng",
+  "answerD": "D. Phân phối",
+  "correctAnswer": "D"
+},
+{
+  "questionTitle": "Logistics",
+  "answerA": "A. Chuỗi cung ứng",
+  "answerB": "B. Thị trường",
+  "answerC": "C. Khách hàng",
+  "answerD": "D. Vận chuyển",
+  "correctAnswer": "D"
+},
+{
+  "questionTitle": "Customer service",
+  "answerA": "A. Chuỗi cung ứng",
+  "answerB": "B. Thị trường",
+  "answerC": "C. Khách hàng",
+  "answerD": "D. Dịch vụ khách hàng",
+  "correctAnswer": "D"
+},
+{
+  "questionTitle": "Quality control",
+  "answerA": "A. Kiểm tra chất lượng",
+  "answerB": "B. Thị trường",
+  "answerC": "C. Khách hàng",
+  "answerD": "D. Bán hàng",
+  "correctAnswer": "A"
+},
+{
+  "questionTitle": "Market research",
+  "answerA": "A. Nghiên cứu thị trường",
+  "answerB": "B. Thị trường",
+  "answerC": "C. Khách hàng",
+  "answerD": "D. Bán hàng",
+  "correctAnswer": "A"
+},
+{
+"questionTitle": "Revenue",
+"answerA": "A. Quảng cáo",
+"answerB": "B. Dịch vụ",
+"answerC": "C. Sản phẩm",
+"answerD": "D. Thu nhập",
+"correctAnswer": "D"
+},
+{
+"questionTitle": "Cost",
+"answerA": "A. Thu nhập",
+"answerB": "B. Chi phí",
+"answerC": "C. Lợi nhuận",
+"answerD": "D. Thiệt hại",
+"correctAnswer": "B"
+},
+{
+"questionTitle": "Assets",
+"answerA": "A. Nợ phải trả",
+"answerB": "B. Thu nhập",
+"answerC": "C. Vốn",
+"answerD": "D. Thu nhập",
+"correctAnswer": "A"
+},
+{
+  "questionTitle": "Tài sản",
+  "answerA": "A. Cost",
+  "answerB": "B. Asset",
+  "answerC": "C. Revenue",
+  "answerD": "D. Interest",
+  "correctAnswer": "B"
+},
+{
+  "questionTitle": "Chi phí",
+  "answerA": "A. Loss",
+  "answerB": "B. Cost",
+  "answerC": "C. Interest",
+  "answerD": "D. Profit",
+  "correctAnswer": "B"
+},
+{
+    "questionTitle": "Nợ phải trả",
+    "answerA": "A. Liability",
+    "answerB": "B. Asset",
+    "answerC": "C. Revenue",
+    "answerD": "D. Expense",
+    "correctAnswer": "A"
+  },
+  {
+    "questionTitle": "Tăng trưởng",
+    "answerA": "A. Growth",
+    "answerB": "B. Loss",
+    "answerC": "C. Interest",
+    "answerD": "D. Profit",
+    "correctAnswer": "A"
+  },
+  {
+    "questionTitle": "Thiết bị",
+    "answerA": "A. Equipment",
+    "answerB": "B. Revenue",
+    "answerC": "C. Debt",
+    "answerD": "D. Liability",
+    "correctAnswer": "A"
+  },
+  {
+    "questionTitle": "Khoản vay",
+    "answerA": "A. Borrowing",
+    "answerB": "B. Income",
+    "answerC": "C. Expenditure",
+    "answerD": "D. Profitability",
+    "correctAnswer": "A"
+  },
+  {
+    "questionTitle": "Thị trường",
+    "answerA": "A. Market",
+    "answerB": "B. Asset",
+    "answerC": "C. Expense",
+    "answerD": "D. Liability",
+    "correctAnswer": "A"
+  },
+  {
+    "questionTitle": "Cổ phiếu",
+    "answerA": "A. Stock",
+    "answerB": "B. Loss",
+    "answerC": "C. Interest",
+    "answerD": "D. Profit",
+    "correctAnswer": "A"
+  },
+  {
+    "questionTitle": "Điều kiện thanh toán",
+    "answerA": "A. Payment terms",
+    "answerB": "B. Income statement",
+    "answerC": "C. Return on investment",
+    "answerD": "D. Cash flow",
+    "correctAnswer": "A"
+  },
+  {
+    "questionTitle": "Cổ tức",
+    "answerA": "A. Dividend",
+    "answerB": "B. Liability",
+    "answerC": "C. Expense",
+    "answerD": "D. Revenue",
+    "correctAnswer": "A"
+  },
+  {
+    "questionTitle": "Rủi ro",
+    "answerA": "A. Risk",
+    "answerB": "B. Asset",
+    "answerC": "C. Profit",
+    "answerD": "D. Revenue",
+    "correctAnswer": "A"
+  },
+  {
+    "questionTitle": "Cổ phần",
+    "answerA": "A. Share",
+    "answerB": "B. Loss",
+    "answerC": "C. Interest",
+    "answerD": "D. Profit",
+    "correctAnswer": "A"
+  },
+  {
+      "questionTitle": "Table",
+      "answerA": "A. Bàn",
+      "answerB": "B. Ghế",
+      "answerC": "C. Tủ",
+      "answerD": "D. Đèn",
+      "correctAnswer": "A"
+    },
+    {
+      "questionTitle": "Chair",
+      "answerA": "A. Tủ",
+      "answerB": "B. Ghế",
+      "answerC": "C. Bàn",
+      "answerD": "D. Đèn",
+      "correctAnswer": "B"
+    },
+    {
+      "questionTitle": "Jug",
+      "answerA": "A. Bình nước",
+      "answerB": "B. Ly",
+      "answerC": "C. Chén",
+      "answerD": "D. Bát",
+      "correctAnswer": "A"
+    },
+    {
+      "questionTitle": "Lamp",
+      "answerA": "A. Đèn",
+      "answerB": "B. Bàn",
+      "answerC": "C. Tủ",
+      "answerD": "D. Ghế",
+      "correctAnswer": "A"
+    },
+    {
+      "questionTitle": "Pillow",
+      "answerA": "A. Chăn",
+      "answerB": "B. Gối",
+      "answerC": "C. Ga",
+      "answerD": "D. Tấm",
+      "correctAnswer": "B"
+    },
+    {
+      "questionTitle": "Wardrobe",
+      "answerA": "A. Tủ đựng quần áo",
+      "answerB": "B. Giường",
+      "answerC": "C. Bàn",
+      "answerD": "D. Ghế",
+      "correctAnswer": "A"
+    },
+    {
+      "questionTitle": "Clock",
+      "answerA": "A. Đồng hồ",
+      "answerB": "B. Bức tranh",
+      "answerC": "C. Tivi",
+      "answerD": "D. Đèn",
+      "correctAnswer": "A"
+    },
+    {
+      "questionTitle": "Television",
+      "answerA": "A. Tivi",
+      "answerB": "B. Điện thoại",
+      "answerC": "C. Radio",
+      "answerD": "D. Máy tính",
+      "correctAnswer": "A"
+    },
+    {
+      "questionTitle": "Keyboard",
+      "answerA": "A. Chuột",
+      "answerB": "B. Bàn phím",
+      "answerC": "C. Màn hình",
+      "answerD": "D. Loa",
+      "correctAnswer": "B"
+    },
+    {
+      "questionTitle": "Painting",
+      "answerA": "A. Tranh",
+      "answerB": "B. Khung",
+      "answerC": "C. Poster",
+      "answerD": "D. Bức ảnh",
+      "correctAnswer": "A"
+    },
+    {
+      "questionTitle": "Radio",
+      "answerA": "A. Radio",
+      "answerB": "B. Tivi",
+      "answerC": "C. Điện thoại",
+      "answerD": "D. Máy tính",
+      "correctAnswer": "A"
+    },
+    {
+      "questionTitle": "Telephone",
+      "answerA": "A. Điện thoại",
+      "answerB": "B. Tivi",
+      "answerC": "C. Radio",
+      "answerD": "D. Máy tính",
+      "correctAnswer": "A"
+    },
+    {
+      "questionTitle": "Computer",
+      "answerA": "A. Máy tính",
+      "answerB": "B. Điện thoại",
+      "answerC": "C. Radio",
+      "answerD": "D. Tivi",
+      "correctAnswer": "A"
+    },
+    {
+      "questionTitle": "Mouse",
+      "answerA": "A. Chuột",
+      "answerB": "B. Bàn phím",
+      "answerC": "C. Màn hình",
+      "answerD": "D. Loa",
+      "correctAnswer": "A"
+    },
+    {
+      "questionTitle": "Monitor",
+      "answerA": "A. Chuột",
+      "answerB": "B. Bàn phím",
+      "answerC": "C. Màn hình",
+      "answerD": "D. Loa",
+      "correctAnswer": "C"
+    },
+    {
+      "questionTitle": "Speaker",
+      "answerA": "A. Chuột",
+      "answerB": "B. Bàn phím",
+      "answerC": "C. Màn hình",
+      "answerD": "D. Loa",
+      "correctAnswer": "D"
+    },
+    {
+      "questionTitle": "Headphone",
+      "answerA": "A. Tai nghe",
+      "answerB": "B. Loa",
+      "answerC": "C. Micro",
+      "answerD": "D. Đèn",
+      "correctAnswer": "A"
+    },
+   {
+       "questionTitle": "Mathematics",
+       "answerA": "A. Toán học",
+       "answerB": "B. Vật lý",
+       "answerC": "C. Hóa học",
+       "answerD": "D. Sinh học",
+       "correctAnswer": "A"
+     },
+     {
+       "questionTitle": "Physics",
+       "answerA": "A. Toán học",
+       "answerB": "B. Vật lý",
+       "answerC": "C. Hóa học",
+       "answerD": "D. Sinh học",
+       "correctAnswer": "B"
+     },
+     {
+       "questionTitle": "Chemistry",
+       "answerA": "A. Toán học",
+       "answerB": "B. Vật lý",
+       "answerC": "C. Hóa học",
+       "answerD": "D. Sinh học",
+       "correctAnswer": "C"
+     },
+     {
+       "questionTitle": "Biology",
+       "answerA": "A. Toán học",
+       "answerB": "B. Vật lý",
+       "answerC": "C. Hóa học",
+       "answerD": "D. Sinh học",
+       "correctAnswer": "D"
+     },
+     {
+       "questionTitle": "History",
+       "answerA": "A. Lịch sử",
+       "answerB": "B. Địa lý",
+       "answerC": "C. Văn hóa",
+       "answerD": "D. Triết học",
+       "correctAnswer": "A"
+     },
+     {
+       "questionTitle": "Geography",
+       "answerA": "A. Lịch sử",
+       "answerB": "B. Địa lý",
+       "answerC": "C. Văn hóa",
+       "answerD": "D. Triết học",
+       "correctAnswer": "B"
+     },
+     {
+       "questionTitle": "Literature",
+       "answerA": "A. Lịch sử",
+       "answerB": "B. Địa lý",
+       "answerC": "C. Văn học",
+       "answerD": "D. Triết học",
+       "correctAnswer": "C"
+     },
+     {
+       "questionTitle": "Philosophy",
+       "answerA": "A. Lịch sử",
+       "answerB": "B. Địa lý",
+       "answerC": "C. Văn hóa",
+       "answerD": "D. Triết học",
+       "correctAnswer": "D"
+     },
+     {
+       "questionTitle": "Computer Science",
+       "answerA": "A. Toán học",
+       "answerB": "B. Vật lý",
+       "answerC": "C. Tin học",
+       "answerD": "D. Sinh học",
+       "correctAnswer": "C"
+     },
+     {
+       "questionTitle": "Economics",
+       "answerA": "A. Toán học",
+       "answerB": "B. Vật lý",
+       "answerC": "C. Kinh tế học",
+       "answerD": "D. Sinh học",
+       "correctAnswer": "C"
+     },
+     {
+         "questionTitle": "Happy",
+         "answerA": "A. Hạnh phúc",
+         "answerB": "B. Buồn",
+         "answerC": "C. Lo lắng",
+         "answerD": "D. Giận dữ",
+         "correctAnswer": "A"
+       },
+       {
+         "questionTitle": "Sad",
+         "answerA": "A. Lo lắng",
+         "answerB": "B. Buồn",
+         "answerC": "C. Hạnh phúc",
+         "answerD": "D. Giận dữ",
+         "correctAnswer": "B"
+       },
+       {
+         "questionTitle": "Anxious",
+         "answerA": "A. Hạnh phúc",
+         "answerB": "B. Lo lắng",
+         "answerC": "C. Buồn",
+         "answerD": "D. Sợ hãi",
+         "correctAnswer": "B"
+       },
+       {
+         "questionTitle": "Angry",
+         "answerA": "A. Buồn",
+         "answerB": "B. Hạnh phúc",
+         "answerC": "C. Giận dữ",
+         "answerD": "D. Sợ hãi",
+         "correctAnswer": "C"
+       },
+       {
+         "questionTitle": "Fearful",
+         "answerA": "A. Hạnh phúc",
+         "answerB": "B. Lo lắng",
+         "answerC": "C. Sợ hãi",
+         "answerD": "D. Buồn",
+         "correctAnswer": "C"
+       },
+       {
+         "questionTitle": "Excited",
+         "answerA": "A. Buồn",
+         "answerB": "B. Hạnh phúc",
+         "answerC": "C. Sợ hãi",
+         "answerD": "D. Hào hứng",
+         "correctAnswer": "D"
+       },
+       {
+         "questionTitle": "Stressed",
+         "answerA": "A. Hạnh phúc",
+         "answerB": "B. Lo lắng",
+         "answerC": "C. Buồn",
+         "answerD": "D. Sợ hãi",
+         "correctAnswer": "B"
+       },
+       {
+         "questionTitle": "Calm",
+         "answerA": "A. Giận dữ",
+         "answerB": "B. Sợ hãi",
+         "answerC": "C. Hạnh phúc",
+         "answerD": "D. Bình tĩnh",
+         "correctAnswer": "D"
+       },
+       {
+         "questionTitle": "Confused",
+         "answerA": "A. Sợ hãi",
+         "answerB": "B. Lo lắng",
+         "answerC": "C. Rối loạn",
+         "answerD": "D. Hạnh phúc",
+         "correctAnswer": "C"
+       },
+       {
+         "questionTitle": "Surprised",
+         "answerA": "A. Sốc",
+         "answerB": "B. Sợ hãi",
+         "answerC": "C. Hạnh phúc",
+         "answerD": "D. Ngạc nhiên",
+         "correctAnswer": "D"
+       },
+    {
+       "questionTitle": "Run",
+       "answerA": "A. Chạy",
+       "answerB": "B. Bơi",
+       "answerC": "C. Đi",
+       "answerD": "D. Ngủ",
+       "correctAnswer": "A"
+     },
+     {
+       "questionTitle": "Swim",
+       "answerA": "A. Chạy",
+       "answerB": "B. Bơi",
+       "answerC": "C. Đi",
+       "answerD": "D. Ngủ",
+       "correctAnswer": "B"
+     },
+     {
+       "questionTitle": "Walk",
+       "answerA": "A. Chạy",
+       "answerB": "B. Bơi",
+       "answerC": "C. Đi",
+       "answerD": "D. Ngủ",
+       "correctAnswer": "C"
+     },
+     {
+       "questionTitle": "Sleep",
+       "answerA": "A. Chạy",
+       "answerB": "B. Bơi",
+       "answerC": "C. Đi",
+       "answerD": "D. Ngủ",
+       "correctAnswer": "D"
+     },
+     {
+       "questionTitle": "Eat",
+       "answerA": "A. Uống",
+       "answerB": "B. Ăn",
+       "answerC": "C. Nói",
+       "answerD": "D. Ngủ",
+       "correctAnswer": "B"
+     },
+     {
+       "questionTitle": "Drink",
+       "answerA": "A. Uống",
+       "answerB": "B. Ăn",
+       "answerC": "C. Nói",
+       "answerD": "D. Ngủ",
+       "correctAnswer": "A"
+     },
+     {
+       "questionTitle": "Speak",
+       "answerA": "A. Uống",
+       "answerB": "B. Ăn",
+       "answerC": "C. Nói",
+       "answerD": "D. Ngủ",
+       "correctAnswer": "C"
+     },
+     {
+       "questionTitle": "Read",
+       "answerA": "A. Uống",
+       "answerB": "B. Ăn",
+       "answerC": "C. Nói",
+       "answerD": "D. Đọc",
+       "correctAnswer": "D"
+     },
+     {
+       "questionTitle": "Listen",
+       "answerA": "A. Uống",
+       "answerB": "B. Ăn",
+       "answerC": "C. Nói",
+       "answerD": "D. Ngủ",
+       "correctAnswer": "D"
+     },
+     {
+       "questionTitle": "Write",
+       "answerA": "A. Viết",
+       "answerB": "B. Đọc",
+       "answerC": "C. Nói",
+       "answerD": "D. Ngủ",
+       "correctAnswer": "A"
+     }
+]
+
+
+
