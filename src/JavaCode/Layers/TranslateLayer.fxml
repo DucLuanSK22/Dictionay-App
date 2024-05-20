@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="600.0" maxWidth="800.0" minWidth="800.0" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #fff;" stylesheets="@../../resources/Css/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaCode.TranslateController">
+   <children>
+      <Pane minWidth="800.0" prefHeight="50.0" prefWidth="800.0" styleClass="shadow-button">
+         <children>
+            <Label layoutX="14.0" layoutY="-4.0" prefHeight="59.0" prefWidth="505.0" styleClass="title" text="Phiên dịch " textFill="#fff">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/Icons/icons8-translate-48.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </children>
+      </Pane>
+      <VBox alignment="TOP_RIGHT" layoutY="56.8" maxHeight="270.0" maxWidth="800.0" minHeight="250.0" prefHeight="270.0" prefWidth="800.0" AnchorPane.bottomAnchor="280.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button maxHeight="40.0" maxWidth="235.0" minHeight="40.0" mnemonicParsing="false" onAction="#translateBtn" prefWidth="200.0" text="DỊCH" textOverrun="CENTER_WORD_ELLIPSIS">
+                     <styleClass>
+                        <String fx:value="shadow-button" />
+                        <String fx:value="title-coler" />
+                     </styleClass>
+                     <HBox.margin>
+                        <Insets right="377.0" />
+                     </HBox.margin>
+                  </Button>
+                  <ChoiceBox fx:id="choseLangSource" maxHeight="30.0" minHeight="40.0" prefHeight="30.0" prefWidth="200.0" styleClass="shadow-button" />
+               </children>
+            </HBox>
+            <Pane minHeight="200.0" prefHeight="200.0" prefWidth="779.0" styleClass="english-word-input">
+               <children>
+                  <TextArea fx:id="inputSentence" layoutX="5.0" layoutY="4.0" prefHeight="149.0" prefWidth="719.0" promptText="Nhập từ hoặc đoạn văn..." style="-fx-background-color: #fff; -fx-background-position: none; -fx-border-color: #fff;" styleClass="answer-text">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextArea>
+                  <Button layoutX="5.0" layoutY="153.0" minWidth="53.0" mnemonicParsing="false" onAction="#speakLangSource" prefHeight="30.0" prefWidth="53.0" style="-fx-background-color: none;">
+                     <graphic>
+                        <ImageView fitHeight="34.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" styleClass="edit-button">
+                           <image>
+                              <Image url="@../../resources/Icons/icons8-sound-60.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <tooltip>
+                        <Tooltip text="Nghe" />
+                     </tooltip>
+                     <styleClass>
+                        <String fx:value="edit-button" />
+                        <String fx:value="scale-button" />
+                     </styleClass>
+                  </Button>
+                  <Button fx:id="cancelBtn" layoutX="719.0" layoutY="14.0" minWidth="44.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="44.0" style="-fx-background-color: none;">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="1047.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../resources/Icons/icons8-cancel-50.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <tooltip>
+                        <Tooltip text="Xóa văn bản nguồn" />
+                     </tooltip>
+                     <styleClass>
+                        <String fx:value="cancel-button" />
+                        <String fx:value="edit-button" />
+                        <String fx:value="scale-button" />
+                     </styleClass>
+                  </Button>
+               </children>
+            </Pane>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </VBox>
+      <VBox alignment="TOP_RIGHT" layoutY="321.0" maxHeight="282.0" minHeight="270.0" prefHeight="282.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="310.0">
+         <children>
+            <ChoiceBox fx:id="choseLangDestination" minHeight="40.0" prefHeight="30.0" prefWidth="200.0" styleClass="shadow-button">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </ChoiceBox>
+            <Pane maxHeight="230.0" minHeight="200.0" prefHeight="230.0" prefWidth="779.0" styleClass="english-word-input">
+               <children>
+                  <TextArea fx:id="outputMeaning" layoutX="6.0" layoutY="5.0" prefHeight="165.0" prefWidth="719.0" promptText="Bản dịch" style="-fx-background-color: none; -fx-border-color: none;" styleClass="answer-text" />
+                  <Button layoutX="7.0" layoutY="172.0" minWidth="53.0" mnemonicParsing="false" onAction="#speakLangDestination" prefHeight="30.0" prefWidth="53.0" style="-fx-background-color: none;">
+                     <graphic>
+                        <ImageView fitHeight="34.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="edit-button">
+                           <image>
+                              <Image url="@../../resources/Icons/icons8-sound-60.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <tooltip>
+                        <Tooltip text="Nghe" />
+                     </tooltip>
+                     <styleClass>
+                        <String fx:value="edit-button" />
+                        <String fx:value="scale-button" />
+                     </styleClass>
+                  </Button>
+                  <Button fx:id="copyText" layoutX="720.0" layoutY="14.0" minWidth="44.0" mnemonicParsing="false" onAction="#copyText" prefHeight="39.0" prefWidth="44.0" style="-fx-background-color: none;">
+                     <graphic>
+                        <ImageView fitHeight="51.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../resources/Icons/icons8-copy-64.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <tooltip>
+                        <Tooltip text="Xao chép bản dịch" />
+                     </tooltip>
+                     <styleClass>
+                        <String fx:value="edit-button" />
+                        <String fx:value="scale-button" />
+                     </styleClass>
+                  </Button>
+               </children>
+            </Pane>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>
