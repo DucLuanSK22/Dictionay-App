@@ -20,7 +20,7 @@ The application is designed to support learning English. The application is writ
   8. Use Google' Cloud Text-to-Speech API to translate the entire paragraph. 
   9. Use Google' Cloud Translation API to pronounce each word.
 ## UML Diagram
-Link
+![UML diagram](https://github.com/DucLuanSK22/Dictionay-App/blob/652f52c13cd966033bbd5739ffe9c3b163133563/UMLDiagram.png)
 ## Installation
 
  1. Clone the project from the repository by command: git clone -b master https://github.com/DucLuanSK22/Dictionay-App.git
