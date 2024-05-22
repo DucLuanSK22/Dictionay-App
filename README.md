@@ -23,7 +23,7 @@ The application is designed to support learning English. The application is writ
 Link
 ## Installation
 
- 1. Clone the project from the repository by command: git clone https://github.com/DucLuanSK22/Dictionay-App.git
+ 1. Clone the project from the repository by command: git clone -b master https://github.com/DucLuanSK22/Dictionay-App.git
   2. Open the project in the IDE.
   3. Instruction for build app:
 - Project Stucture -> Modules -> Dictionary-App-main:
