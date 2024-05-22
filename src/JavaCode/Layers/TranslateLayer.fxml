@@ -36,11 +36,8 @@
          <children>
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
                <children>
-<<<<<<< HEAD
                   <Label fx:id="main_label" alignment="CENTER" contentDisplay="CENTER" minHeight="40.0" minWidth="200.0" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 10;" text="English">
-=======
-                  <Button maxHeight="40.0" maxWidth="235.0" minHeight="40.0" mnemonicParsing="false" onAction="#translateBtn" prefWidth="200.0" style="-fx-background-radius: 10;" text="DỊCH" textFill="#ecf0f1" textOverrun="CENTER_WORD_ELLIPSIS">
->>>>>>> e7660f44ed6188d26143fbb8a3311f3b6e26dc97
+
                      <styleClass>
                         <String fx:value="success_label" />
                         <String fx:value="title-coler" />
@@ -55,16 +52,13 @@
                         </ImageView>
                      </graphic>
                   </Button>
-<<<<<<< HEAD
+
                   <Label fx:id="trans_label" alignment="CENTER" contentDisplay="CENTER" minHeight="40.0" minWidth="200.0" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 10;" text="English">
                      <styleClass>
                         <String fx:value="success_label" />
                         <String fx:value="title-coler" />
                      </styleClass>
                   </Label>
-=======
-                  <ChoiceBox fx:id="choseLangSource" maxHeight="30.0" minHeight="40.0" prefHeight="30.0" prefWidth="200.0" style="-fx-background-radius: 10;" styleClass="success_label" />
->>>>>>> e7660f44ed6188d26143fbb8a3311f3b6e26dc97
                </children>
             </HBox>
             <Pane minHeight="200.0" prefHeight="200.0" prefWidth="779.0" styleClass="english-word-input">
@@ -116,16 +110,8 @@
       </VBox>
       <VBox alignment="CENTER" layoutY="321.0" maxHeight="282.0" minHeight="270.0" prefHeight="282.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="310.0">
          <children>
-<<<<<<< HEAD
-            <Pane maxHeight="230.0" minHeight="200.0" prefHeight="214.0" prefWidth="779.0" styleClass="english-word-input">
-=======
-            <ChoiceBox fx:id="choseLangDestination" minHeight="40.0" prefHeight="30.0" prefWidth="200.0" style="-fx-background-radius: 10;" styleClass="success_label">
-               <VBox.margin>
-                  <Insets bottom="10.0" />
-               </VBox.margin>
-            </ChoiceBox>
+
             <Pane maxHeight="230.0" minHeight="200.0" prefHeight="230.0" prefWidth="779.0" styleClass="english-word-input">
->>>>>>> e7660f44ed6188d26143fbb8a3311f3b6e26dc97
                <children>
                   <TextArea fx:id="outputMeaning" layoutX="6.0" layoutY="5.0" prefHeight="165.0" prefWidth="719.0" promptText="Bản dịch" style="-fx-background-color: none; -fx-border-color: none;" styleClass="answer-text" />
                   <Button layoutX="7.0" layoutY="172.0" minWidth="53.0" mnemonicParsing="false" onAction="#speakLangDestination" prefHeight="30.0" prefWidth="53.0" style="-fx-background-color: none;">

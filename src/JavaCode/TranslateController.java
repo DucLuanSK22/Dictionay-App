@@ -24,12 +24,7 @@ public class TranslateController extends DatabaseConnection implements Initializ
         String languageTo = "vi";
         String speakFrom;
         String speakTo;
-//
-//        @FXML
-//        private ChoiceBox<String> choseLangDestination;
-//
-//        @FXML
-//        private ChoiceBox<String> choseLangSource;
+
         @FXML
         private Label main_label;
         @FXML
