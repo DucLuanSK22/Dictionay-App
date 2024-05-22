@@ -36,7 +36,7 @@ Link
 - VM options: --module-path "C:\Program Files\Java\javafx-sdk-21.0.2\lib" --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.web  
 ## Demo
 
-### Video https://youtu.be/6aZtBpmYtUY
+### Video https://youtu.be/Adcslj0Mh8A
 
 
 ## Future improvements
